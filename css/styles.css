@@ -1,0 +1,179 @@
+* { box-sizing: border-box; }
+.column-narrow 
+{
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+.column-wide
+{
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+/* Color Palette
+#B08BDB - color 1
+#4D2ADB - color 2
+#2790DB - color 3
+#7697DB - color 4
+*/
+
+/* Global styles 
+------------------------------------*/
+body 
+{
+    font-family: 'IBM Plex Sans', sans-serif;
+    background:#2790DB;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+main 
+{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.content-wrap 
+{
+    padding: 50px;
+    max-width: 950px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+section 
+{
+    background: #7697DB;
+    padding: 40px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header 
+{
+    background: #7697DB;
+    padding: 40px 30px;
+}
+
+header h1,
+header h2 
+{
+    margin: 0;
+}
+
+header h1 
+{
+    font-size: 3em;
+}
+
+header h2 
+{
+    font-size: 2em;
+}
+header p 
+{
+    font-family: "Poiret One", sans-serif;
+    font-size: 1.2em;;
+}
+.profile-img 
+{
+    max-width: 100%;
+    border-radius: 50%;
+}
+nav a 
+{
+    /* box-sizing: border-box; */
+}
+
+footer 
+{
+    background: #7697DB;
+    padding: 30px;
+    text-align: center;
+}
+
+footer div 
+{
+    margin: 15px 0;
+}
+
+footer a 
+{
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+.contact-info a 
+{
+    padding: 10px;
+    display: inline-block;
+}
+
+
+
+
+/* Work Experience
+------------------------------------*/
+section h2 
+{
+    margin-top: 0;
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+section h3 
+{
+    text-align: left;
+    font-size: 1.3em;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+section .job-details,
+section .school-details 
+{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+section .job-title,
+section .school-name 
+{
+    flex: 0 0 25%;
+    text-align: right;
+}
+
+section .job-content,
+section .school-content 
+{
+    flex: 1;
+    text-align: left;
+}
+
+section .job-title h3,
+section .school-name h3 
+{
+    text-align: left;
+}
+
+section .job-content p,
+section .school-content p 
+{
+    margin: 5px 0;
+}
+section .job-content em,
+section .school-content em 
+{
+    color:#E8D24A;
+    font-family: "Poiret One", sans-serif;
+    margin: 5px 0;
+}
+
+/* Education
+------------------------------------*/
