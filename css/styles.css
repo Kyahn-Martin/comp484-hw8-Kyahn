@@ -24,10 +24,15 @@
 body 
 {
     font-family: 'IBM Plex Sans', sans-serif;
-    background:#2790DB;
+    background-image: url('../images/Starry_night.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
     text-align: center;
+    padding-top: 100px;
 }
 
 main 
@@ -86,9 +91,22 @@ header p
 }
 nav a 
 {
-    /* box-sizing: border-box; */
+    color: rgb(55, 156, 55);
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 30px;
 }
-
+.nav-bar 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #7697DB;
+    padding: 20px;
+    z-index: 100;
+    text-align: center;
+}
 footer 
 {
     background: #7697DB;
